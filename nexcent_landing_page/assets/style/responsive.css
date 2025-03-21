@@ -150,6 +150,10 @@
            width: 250px;
        
        }
+       .all-customers .top-panel p span{
+         text-align: center;
+    
+    }
    
        .all-customers .bottom-panel{
            width: 250px;
@@ -177,7 +181,21 @@
    
  }
 
-
+ @media (max-width:575px){
+    .new-marketing  .content{
+        width: 350px;
+        margin-inline: auto;
+    
+    
+    }
+    .new-marketing  .content h2 p{
+        width: 350px;
+        margin-inline: auto;
+    
+    
+    }
+    
+}
 /* top-footer */
 
 @media (max-width:768px){
