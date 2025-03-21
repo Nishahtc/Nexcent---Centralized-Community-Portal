@@ -1,38 +1,43 @@
 /* header */
-header{
+header {
 
     background-color: #fffdfd;
     height: 5.25rem;
     display: flex;
     align-items: center;
- 
+
 }
-nav{
+
+nav {
     flex-grow: 1;
 }
 
 
 
-.menu-toggle img{
+.menu-toggle img {
     width: 2rem;
 }
-.menu-items{
-   transition: right 1s linear;
+
+.menu-items {
+    transition: right 1s linear;
 }
-.menu-toggle{
+
+.menu-toggle {
     display: none;
     cursor: pointer;
 }
-#menu-toggler{
+
+#menu-toggler {
     display: none;
 }
-#menu-toggler:checked + .menu-items {
+
+#menu-toggler:checked+.menu-items {
     right: 0;
 
 }
 
-ul a[href="#"]:hover{
-  color: #4caf4f;
+ul a[href="#"]:hover {
+    color: #4caf4f;
 
 
 }
@@ -44,16 +49,16 @@ ul a[href="#"]:hover{
 
 /* header end */
 /* hero section */
-.hero-section{
-    background-color:var(--bg-light-white);
+.hero-section {
+    background-color: var(--bg-light-white);
     padding-block: 6rem;
-   
+
     /* gap: var(--gap-72); 
     padding-inline: var(--padding-inline-100);  */
 }
 
 /* heading */
-.hero-section h1{
+.hero-section h1 {
 
     font-size: var(--font-size-64);
     font-weight: 600;
@@ -62,7 +67,7 @@ ul a[href="#"]:hover{
 }
 
 
-p{
+p {
     margin-bottom: 1.391875rem;
 }
 
@@ -70,85 +75,168 @@ p{
 /* our client */
 
 
-.our-clients .content{
+.our-clients .content {
     width: 1152px;
 }
+
 /* our client  end*/
 /* entire community */
-.entire-community .content{
+.entire-community .content {
     width: 542px;
     margin-inline: auto;
 
 
 }
-.entire-community  .card{
+
+.entire-community .card {
     width: 299px;
     border-radius: 0.5rem;
     padding-block: 1.5rem;
     padding-inline: 2rem;
-    background-color:var(--bg-light-white);
+    background-color: var(--bg-light-white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 
 }
-.entire-community  .card img{
+
+.entire-community .card img {
     gap: var(--gap-5);
 }
+
 /* Pixelgrade */
-.Pixelgrade{
+.Pixelgrade {
     padding-block: 6rem;
 }
-.Pixelgrade .rights{
+
+.Pixelgrade .rights {
     width: 580px;
 }
+
 /* helping */
-.Helping .left{
+.Helping .left {
     width: 408px;
 }
+
 .Helping .right{
-    width: 540px;
+    width: 400px;
+
 }
+
+.Helping .right .card img{
+    width: 2rem;
+}
+
+.Helping .right .card {
+    width: 177.5px;
+}
+
+
+
 /* helping  end*/
 /*  design  footer site */
-.design-footer .rights{
+.design-footer .rights {
     width: 580px;
-  
+
 }
+
 /* all-customers */
-.all-customers .top-panel{
+.all-customers .top-panel {
     width: 748px;
 
 }
-.all-customers .bottom-panel{
+
+.all-customers .bottom-panel {
     width: 748px;
 
 }
+
 /* all-customers  end*/
 /* new-marketing */
-.new-marketing .content{
+.new-marketing .content {
     width: 628px;
     margin-inline: auto;
 
 
 }
+.new-marketing   .card-wrapper .card{
+    width: 28%;
+}
+.new-marketing   .card-wrapper .card img{
+    width: 100%;
+}
+.text-content{
+    margin-top: -60px;
+    width: 80%;
+    margin-inline: auto;
+    flex-grow: 1;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0,0,0,.15);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.text-content a{
+    margin-top: auto;
+}
+.new-marketing .card-wrapper .btn{
+    background-color: transparent;
+    color: #4caf4f;
+}
 /* new-marketing  end */
 /* footer */
 
 
-footer .bottom-panel{
+footer .bottom-panel {
     background-color: var(--footer-color);
     padding-block: var(--padding-block-44);
 }
 
-footer .left-footer{
+footer .left-footer {
     width: 360px;
-   background-color: #c06f6f;
+
     /* gap: var(--gap-27);
     padding-inline: var( --padding-inline-114);
     padding-block: var( --padding-block-44); */
 }
-footer .right-footer{
+
+footer .right-footer {
     width: 635px;
-    background-color: #a58d8d;
+
 }
+
+footer .right-footer .card {
+    width: 160px;
+
+}
+
+footer .left-footer a img {
+    filter: invert(1);
+}
+
+footer .social-media-icons i {
+    color: #fff;
+    transition: 0.3s;
+}
+
+footer .social-media-icons i:hover {
+    color: var(--bg-color-green)
+}
+
+footer .right-footer li {
+    padding-block: 0.5rem;
+}
+
+footer .right-footer input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #333;
+    color: white;
+}
+
 /* footer end */
