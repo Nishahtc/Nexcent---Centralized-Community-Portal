@@ -40,7 +40,7 @@
     width: 100%;
     text-align: center;
    }
-   img{
+   .hero-section img{
     width: 100%;
    }
 }
@@ -52,11 +52,149 @@
         align-items: center;
 
     }
-    img{
-      flex-wrap: wrap;
+    
+}
+/* entire community */
+@media (max-width:575px){
+    .entire-community .content{
+        width: 350px;
+        margin-inline: auto;
+    
+    
     }
+    
 }
 
 
 /* our client end */
+@media (max-width:992px){
+    .Pixelgrade  .container{
+     flex-direction: column;
+ 
+    }
+   
+   
+   
+ }
+ /* Pixelgrade  */
+@media (max-width:575px){
+    .Pixelgrade  .container{
+     flex-direction: column;
+ 
+    }
 
+    .Pixelgrade img{
+        width: 100%;
+       }
+
+    .Pixelgrade .rights{
+        width: 280px;
+        align-items: center;
+    }
+   
+ }
+ /* design-footer */
+ @media (max-width:768px){
+    .design-footer  .container{
+     flex-direction: column;
+ 
+    }
+
+    .design-footer .rights{
+        width: 280px;
+        align-items: center;
+    }
+   
+ }
+ @media (max-width:575px){
+    .design-footer .container{
+     flex-direction: column;
+ 
+    }
+
+
+
+    .design-footer .rights{
+        width: 280px;
+        align-items: center;
+    }
+   
+ }
+ 
+ /* all-customers */
+ @media (max-width:991px){
+    .all-customers  .container{
+     flex-direction: column;
+ 
+    }
+
+    .all-customers .top-panel{
+        width: 500px;
+    
+    }
+
+    .all-customers .bottom-panel{
+        width: 500px;
+    
+    }  
+   
+
+ }
+ @media (max-width:575px){
+    .all-customers  .container{
+        flex-direction: column;
+    
+       }
+   
+       .all-customers .top-panel{
+           width: 250px;
+       
+       }
+   
+       .all-customers .bottom-panel{
+           width: 250px;
+       
+       }  
+      
+
+
+
+ }
+ /* helping */
+ @media (max-width:575px){
+    .Helping .container{
+     flex-direction: column;
+ 
+    }
+
+    .Helping img{
+        width: 100%;
+       }
+    .rights{
+     width: 100%;
+     text-align: center;
+    }
+   
+ }
+
+
+/* top-footer */
+
+@media (max-width:768px){
+    footer .top-panel h2{
+        font-size: 2.25rem;
+        text-align: center;
+    }
+    footer .btn{
+        text-align: center;
+    }
+}
+@media (max-width:575px){
+    footer .top-panel h2{
+        font-size: 1.25rem;
+        text-align: center;
+    }
+    footer .btn{
+        text-align: center;
+    }
+}
