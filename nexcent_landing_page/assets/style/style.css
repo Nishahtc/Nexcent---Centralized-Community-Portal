@@ -159,18 +159,4 @@ html{
 
 
 }
-.footer-heading{
-  
-    color:var(--text-color-white);
-    font-weight: 600;
-    font-size:var(--font-size-13);
-    line-height: var(--line-height-19);
 
-} 
-.footer-items{
-  
-    color:var(  --text-color-light-white);
-    font-size:var(--font-size-9);
-    line-height: var(--line-height-13);
-
-}

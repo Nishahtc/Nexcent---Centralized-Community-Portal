@@ -54,6 +54,8 @@
     }
     
 }
+
+
 /* entire community */
 @media (max-width:575px){
     .entire-community .content{
@@ -201,6 +203,7 @@
     .new-marketing  .content{
         width: 350px;
         margin-inline: auto;
+       
     
     
     }
@@ -211,6 +214,64 @@
     
     }
     
+}
+/* new marketing */
+@media (max-width:768px){
+    .new-marketing .content{
+        width: 300px;
+        margin-inline: auto;
+       text-align: center;
+    
+    
+    }
+    .new-marketing .card-wrapper {
+        flex-direction: column;
+       align-items: center;
+    }
+    .new-marketing .card-wrapper .card img{
+       width: 100%;
+
+    }
+    .new-marketing .card-wrapper .card{
+       width: 28%;
+    }
+}
+@media (max-width:575px){
+    .new-marketing .content{
+        width: 150px;
+        margin-inline: auto;
+    
+    
+    }
+    .new-marketing .card-wrapper {
+        flex-direction: column;
+       align-items: center;
+    }
+    .new-marketing .card-wrapper .card img{
+        width: 100%;
+        height: auto;
+        display: block;
+
+    }
+    
+    .new-marketing .card-wrapper .card{
+        width: 28%;
+        overflow: hidden;
+     }
+     .new-marketing .text-content{
+        margin-top: 60px;
+        width: 100%;
+        margin-inline: auto;
+        flex-grow: 1;
+        
+        text-align: center;
+        padding: 1rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
 }
 /* top-footer */
 
@@ -238,8 +299,15 @@
         flex-direction: column;
         text-align: center;
     }
-    footer .social-media-icons i{
-      text-align: center;
+
+    footer .left-footer{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    footer .left-footer .social-media-icons i{
+        align-items: center;
+
     }
     footer .right-footer {
         flex-direction: column;
@@ -247,5 +315,13 @@
     }
     .card {
         width: 100%;
+    }
+    footer .footer-heading{
+  
+        color:var(--text-color-white);
+        font-weight: 600;
+       font-size: 1rem;
+        /* line-height: var(--line-height-19); */
+    
     }
 }
